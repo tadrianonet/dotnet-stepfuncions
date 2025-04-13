@@ -1,0 +1,40 @@
+# Build / Release folders
+bin/
+obj/
+out/
+*.zip
+
+# Visual Studio files
+.vscode/ 
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local AWS files
+.aws-sam/
+.localstack/
+.local/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Configurações temporárias
+aws-lambda-tools-defaults.json
+
+# Logs
+*.log
+
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+
+# Arquivos gerados pelo Rider ou VS Code
+.idea/
+*.code-workspace
+.vscode/
+
+# Arquivos de Deploy
+deploy.zip
+src/*/deploy.zip
+# 
